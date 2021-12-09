@@ -1,7 +1,7 @@
 # Blockchain Simulator
 A simple blockchain simulator in Python
 
-##Overview
+## Overview
 Understanding CryptoCurrency involves understanding two concepts
 - Blockchain
 - Cryptography
@@ -13,24 +13,27 @@ This is a simple implementation to show how *Blockchain and Crypto Software* can
  - secure against MITM(Man in the middle) attacks
  - secure ownership of transactions for a given wallet address
 
-##Why simulate? Why not look at real code?
+## Why simulate? Why not look at real code?
 - Simpler code base (1/100th), environment(single venv instance vs multiple docker instances)
 - Faster to experiment (few minutes vs few hours/days)
 - Easier to experiment (Use mocks), lesser constraints
 
-##How can I setup?
+## How can I setup?
 - Install venv and python packages
-```python3 -m venv bcenv
-   source bcenv/bin/activate
-   pip install -r requirements.txt ```
+```
+python3 -m venv bcenv
+source bcenv/bin/activate
+pip install -r requirements.txt 
+```
 
 ## Testing?
 Few tests are implemented in test/test_blockchain.py. (create blockchain, record transactions, double spending, relay attack) 
 
 You can run these tests using below command
-```PYTHONPATH=src  python -m pytest test/test_blockchain.py -s``` 
+```
+PYTHONPATH=src  python -m pytest test/test_blockchain.py -s
  
-```Sample Output:
+   Sample Output:
    
 test/test_blockchain.py Genesis block created
 Bob rewarded 100 tokens for mining
