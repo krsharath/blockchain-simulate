@@ -10,7 +10,6 @@ This is a simple implementation to show how *Blockchain and Crypto Software* can
  - store transactions in a distributed ledger
  - detect and prevent data tampering
  - prevent double spending
- - secure against MITM(Man in the middle) attacks
  - secure ownership of transactions for a given wallet address
 
 ## Why simulate? Why not look at real code?
