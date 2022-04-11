@@ -15,8 +15,7 @@ This is a simple implementation to show how *Blockchain and Crypto Software* can
 
 ## Why simulate? Why not look at real code?
 - Simpler code base (1/100th), environment(single venv instance vs multiple docker instances)
-- Faster to experiment (few minutes vs few hours/days)
-- Easier to experiment (Use mocks), lesser constraints
+- Faster and Easier to experiment (few minutes vs few hours/days)
 
 ## How can I setup?
 - Install venv and python packages
