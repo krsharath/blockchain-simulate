@@ -14,8 +14,8 @@ This is a simple implementation to show how *Blockchain and Crypto Software* can
  - secure ownership of transactions for a given wallet address
 
 ## Why simulate? Why not look at real code?
-- Simpler code base (1/100th), environment(single venv instance vs multiple docker instances)
-- Faster and Easier to experiment (few minutes vs few hours/days)
+- Simple code base (1/100th size of https://github.com/bitcoin/bitcoin), Simple environment(single venv instance vs multiple docker instances)
+- Faster and easier to experiment (few minutes vs few hours/days)
 
 ## How can I setup?
 - Install venv and python packages
